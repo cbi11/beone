@@ -1188,15 +1188,15 @@ j{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: #ff1e5f;
+    background-color: #ff1e5f
+    color: white;
     font-size: 20px;
     transition: .2s ease;
 }
 #sub{
     margin-top: 1%;
     text-decoration: none;
-    color: black;
+    color: #686868;
     display: flex;
     align-items: center;
     width: 125px;
@@ -1399,9 +1399,6 @@ img{
     .first-section{
         background: none;
         height: 100vh;
-    }
-    .c-btn{
-        margin-top: 30%;
     }
 }
 @media(height: 1140px){
@@ -1650,7 +1647,7 @@ img{
         font-size: 16px;
     }
     .title-desc{
-        width: 50%;
+        width: auto;
     }
     .home-title{
         font-size: 60px;
@@ -1789,7 +1786,7 @@ img{
         width: 45%;
     }
     .legend{
-        left: 45%;
+        left: 40%;
     }
 }
 @media(max-width: 690px){
@@ -1839,8 +1836,67 @@ img{
         height: 500px;
         width: 60%;
     }
+    .service-list{
+        height: 1500px;
+    }
+    .branding-card{
+        width: 70%;
+        height: 200px;
+    }
+    .web-design-card{
+        width: 70%;
+        height: 200px;
+    }
+    .video-production-card{
+        width: 70%;
+        height: 200px;
+    }
+    .marketing-card{
+        width: 70%;
+        height: 200px;
+    }
+    .development-card{
+        width: 70%;
+        height: 200px;
+    }
+    .photography-card{
+        width: 70%;
+        height: 200px;
+    }
+
 }
 @media(max-width: 540px){
+    .desc{
+        width: 100%;
+    }
+    .service-list{
+        height: 1500px;
+    }
+    .branding-card{
+        width: 80%;
+        height: 200px;
+    }
+    .web-design-card{
+        width: 80%;
+        height: 200px;
+    }
+    .video-production-card{
+        width: 80%;
+        height: 200px;
+    }
+    .marketing-card{
+        width: 80%;
+        height: 200px;
+    }
+    .development-card{
+        width: 80%;
+        height: 200px;
+    }
+    .photography-card{
+        width: 80%;
+        height: 200px;
+    }
+
     .portfolio-list{
         height: 3400px;
     }
@@ -1884,22 +1940,43 @@ img{
         height: 1700px;
     }
     .icn1{
-        width: 80%;
+        width: 90%;
     }
     .icn2{
-        width: 80%;
+        width: 90%;
     }
     .icn3{
-        width: 80%;
+        width: 90%;
     }
     .icn4{
-        width: 80%;
+        width: 90%;
     }
     .icn5{
-        width: 80%;
+        width: 90%;
     }
     .icn6{
-        width: 80%;
+        width: 90%;
+    }
+    .pic1{
+        width: 95%;
+    }
+    .pic2{
+        width: 95%;
+    }
+    .pic3{
+        width: 95%;
+    }
+    .pic4{
+        width: 95%;
+    }
+    .pic5{
+        width: 95%;
+    }
+    .pic6{
+        width: 95%;
+    }
+    .message-container {
+        justify-content: center;
     }
     #title-desc2{
         margin-top: 1rem;
@@ -1921,13 +1998,15 @@ img{
     }
     .message-form{
         margin: 0;
+        width: 300px;
     }
     .contact-section{
-        height: 700px;
+        height: auto;
     }
     .row{
-        margin-top: -9%;
         width: 370px;
+        height: 250px;
+        flex-direction: column;
     }
 }   
 @media(max-width: 430px){
