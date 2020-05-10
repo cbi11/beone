@@ -2027,6 +2027,9 @@ img{
     .burger{
         margin-left: 75%;
     }
+    .row{
+        width: 300px;
+    }
 }
 @media(max-width: 370px){
     .first-section{
