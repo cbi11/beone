@@ -1640,6 +1640,9 @@ img{
     }
 }   
 @media(max-width: 770px){
+    .wrapper{
+        height: 73vh;
+    }
     .container{
         width: 100%;
     }
@@ -1977,11 +1980,36 @@ img{
     }
     .message-container {
         justify-content: center;
+        width: 70%;
     }
     #title-desc2{
         margin-top: 1rem;
         height: 220px;
-        width: 60%;
+        width: 90%;
+    }
+    .services-desc{
+        width: 90%;
+    }
+    .portfolio-desc{
+        width: 90%;
+    }
+    .why-desc{
+        width: 90%;
+    }
+    .team-desc{
+        width: 90%;
+    }
+    .price-desc{
+        width: 90%;
+    }
+    .blog-desc{
+        width: 90%;
+    }
+    .sub-desc{
+        width: 90%;
+    }
+    .contact-desc{
+        width: 90%;
     }
     .portfolio-title{
         width: 300px;
@@ -2028,11 +2056,13 @@ img{
         margin-left: 75%;
     }
     .row{
-        width: 300px;
+        width: 200px;
     }
-}
-@media(max-width: 370px){
-    .first-section{
-        border: 1px solid yellow;
+    .message-container{
+        width: 70%;
+        margin-left: 4%;
+    }
+    .subscribe-section{
+        height: 550px;
     }
 }
