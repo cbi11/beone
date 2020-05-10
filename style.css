@@ -2024,10 +2024,12 @@ img{
     .logo{
         width: 190px;
     }
-    .first-section{
-        border: 1px solid green;
-    }
     .burger{
-        margin-left: 70%;
+        margin-left: 75%;
+    }
+}
+@media(max-width: 370px){
+    .first-section{
+        border: 1px solid blue;
     }
 }
